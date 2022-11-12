@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAE-qY-7LO">
-                                <rect key="frame" x="182" y="150" width="50" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Значение счётчика: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAE-qY-7LO">
+                                <rect key="frame" x="107" y="150" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="EFl-xn-ZhJ"/>
-                                    <constraint firstAttribute="width" constant="50" id="gUL-Z6-kUX"/>
+                                    <constraint firstAttribute="width" constant="200" id="gUL-Z6-kUX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -37,7 +37,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="tapOnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k0o-Gj-PGB"/>
+                                    <action selector="counterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhP-XD-KgZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,12 +53,12 @@
                     </view>
                     <connections>
                         <outlet property="clickButton" destination="cZl-0a-bQw" id="ZC2-w7-h7R"/>
-                        <outlet property="scoreLable" destination="XAE-qY-7LO" id="DCL-0Y-RLR"/>
+                        <outlet property="scoreLabel" destination="XAE-qY-7LO" id="qaR-39-NxL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="64"/>
+            <point key="canvasLocation" x="18.840579710144929" y="63.586956521739133"/>
         </scene>
     </scenes>
     <resources>
