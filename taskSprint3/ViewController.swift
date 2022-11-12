@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func tapOnButton(_ sender: Any) {
         counter += 1
-        scoreLable.text = "\(counter)"
+        scoreLable.text = "Значение счётчика:\(counter)"
     }
     
     override func viewDidLoad() {
